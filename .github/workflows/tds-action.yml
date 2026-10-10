@@ -1,0 +1,16 @@
+
+name: TDS Q13 GitHub Action
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 25f2006465@ds.study.iitm.ac.in
+        run: echo "Hello, world! TDS Q13 action ran successfully."
